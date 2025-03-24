@@ -15,7 +15,7 @@ Commutative rings
 from sage.categories.category_with_axiom import CategoryWithAxiom
 from sage.categories.cartesian_product import CartesianProductsCategory
 from sage.structure.sequence import Sequence
-
+from sage.structure.element import coercion_model
 
 class CommutativeRings(CategoryWithAxiom):
     """
